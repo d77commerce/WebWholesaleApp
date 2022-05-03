@@ -103,3 +103,24 @@ input::-webkit-outer-spin-button {
   background-color: white;
   position: fixed;
 }
+#overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  color: rgba(0, 0, 0, 0.449);
+  z-index: 1;
+}
+#modal {
+  max-width: 900px;
+  height: 790px;
+  margin: auto;
+  background-color: rgb(241, 245, 220);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
