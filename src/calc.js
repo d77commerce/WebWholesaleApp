@@ -1,4 +1,4 @@
-const total = document.querySelector('#All-amount-js');
+export const total = document.querySelector('#All-amount-js');
 let small = 0;
 let mid = 0;
 let big = 0;

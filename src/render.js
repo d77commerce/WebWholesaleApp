@@ -1,14 +1,17 @@
-import { icons } from "./icons.js";
+import { icons } from './icons.js';
 import {
   html,
   render,
   nothing,
-} from "https://cdn.jsdelivr.net/gh/lit/dist@2.2.1/core/lit-core.min.js";
-const placeHtml = document.querySelector("#container1");
+} from 'https://cdn.jsdelivr.net/gh/lit/dist@2.2.1/core/lit-core.min.js';
+const placeHtml = document.querySelector('#container1');
 
-export const iconsHtml = (all) => html`
+export const iconsHtml = all => html`
   ${all?.map(
-    (i) => html`<div name="${i.iconName}" style="margin-bottom: 30px;">
+    i => html`<div
+      name="${i.iconName}"
+      style="margin-bottom: 30px;margin-right:550px;"
+    >
       <div class="picture">
         <img
           style="border-radius: 25px;float: left;"
